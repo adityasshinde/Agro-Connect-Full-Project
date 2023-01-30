@@ -1,0 +1,6 @@
+# created by virtualenv automatically
+**/migrations
+*.DS_Store
+**/__pycache__
+**/.DS_Store
+*node_modules/*
