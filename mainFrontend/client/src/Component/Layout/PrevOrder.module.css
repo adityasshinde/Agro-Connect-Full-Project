@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.main{
+    width: 70%;
+    height: 70%;
+    padding: 1rem;
+    box-shadow: 0 11px 14px rgba(24, 22, 22, 0.528);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+  }
+.item{
+    list-style: upper-roman;
+    margin-left: 2rem;
+  }
+.item span{
+    margin: 15px;
+}
+.item span span{
+    font-weight: bold;
+    margin: 2px;
+}

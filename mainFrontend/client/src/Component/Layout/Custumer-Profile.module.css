@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.main{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    margin-top: 12vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+.inf{
+  font-weight: bold;
+}
+.details{
+    height: 30%;
+    display: flex;
+    width: 90%;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    background-color: white;
+    margin: auto;
+}
+.orders{
+    width: 90%;
+    padding: 1rem;
+    margin: auto;
+}
+.button {
+    font: inherit;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    background-color: rgb(120, 183, 228);
+    color: black;
+    border: none;
+  }
+  .button:hover{
+    color: white;
+    background-color: blue;
+  }
+  

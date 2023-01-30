@@ -1,0 +1,32 @@
+.main{
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    background-color: white;
+    width: 90vw;
+    margin: auto;
+    margin-top: 12vh;
+}
+.cred{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.link {
+    font: inherit;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    background-color: rgb(120, 183, 228);
+    color: black;
+    border: none;
+    text-decoration: none;
+    margin: 5px;
+  }
+  .link:hover{
+    color: white;
+    background-color: blue;
+  }
+.avl{
+margin-top: 1rem;
+}

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+.form {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  
+  .form p label,
+  .form p input {
+    display: block;
+    width: 100%;
+  }
+  
+  .form p input {
+    font: inherit;
+    padding: 0.5rem;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 2px;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .actions button {
+    font: inherit;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    margin: 20px auto;
+    border-radius: 4px;
+    background-color: rgb(120, 183, 228);
+    color: black;
+    border: none;
+  }
+  
+  .actions a {
+    text-decoration: none;
+    background-color: transparent;
+    color: var(--color-gray-300);
+  }
+  
+  .actions button:hover {
+    background-color: rgb(33, 82, 172);
+    color: white;
+  }
+  
+  .actions a:hover {
+    background-color: var(--color-gray-800);
+  }
+  .redi{
+    text-align: center;
+  }
+  .main{
+    width: 50%;
+    height: 70%;
+    margin: 5% auto;
+    box-shadow: 0 22px 28px rgba(24, 22, 22, 0.528);
+    background-color: white;
+    display: flex;
+  }
+  .brand{
+    width: 35%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .brand img{
+    width: 30%;
+    margin-bottom: -1rem;
+  }

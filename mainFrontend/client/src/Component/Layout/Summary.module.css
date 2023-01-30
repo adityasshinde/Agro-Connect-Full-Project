@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+.main{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    color: white;
+    margin-top: 10vh;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    background: rgba(0, 0, 0, 0.7) url('../../images/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+.span{
+    font-family: 'Rajdhani', sans-serif;
+    margin: 5px;
+}
+.button{
+    cursor: pointer;
+    padding:8px 25px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 15px;
+    font-size: 1rem;
+    font-family: 'ABeeZee', sans-serif;
+    text-decoration: none;
+    margin-top: 10px;
+ 
+}
+.button:hover,
+.button:active{
+    background-color: white;
+    color: green;
+    
+}
+.head{
+    font-size:5rem;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    margin: 1rem;
+}

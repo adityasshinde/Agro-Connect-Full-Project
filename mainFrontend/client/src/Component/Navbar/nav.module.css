@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+.navbar{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+   background-color: #365c32;
+    color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 10;
+    
+}
+.navitem{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navitem button{
+    font-family: 'Changa', sans-serif;
+    background-color: inherit;
+    color: rgb(245, 154, 9);
+    margin: 5px;
+    border: 0px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.navbar button:hover{
+    text-decoration: underline;
+    color: rgb(244, 218, 168);
+}
+.navitem img{
+    height: 10vh;
+}
+.navitem h2 a{
+    text-decoration: none;
+    color: rgb(245, 154, 9);
+    font-family: 'Rubik Vinyl', cursive;
+}
+.navitem a{
+    text-decoration: none;
+    color: rgb(224, 163, 49);
+    font-family: 'Changa', sans-serif;
+    margin: 10px;
+    font-weight: bold;
+}
+.navbar a:hover,
+.navitem a.active{
+    text-decoration: underline;
+    color: rgb(244, 218, 168);
+}
+

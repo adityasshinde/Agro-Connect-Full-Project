@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
+.inf{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.itemInf{
+    color: rgb(235, 235, 10);
+}
+.header{
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+}
+.name{
+    font-size: 2.5rem;
+    font-family: 'Kanit', sans-serif;
+    padding: 20px;
+}
+.img{
+    height: 20%;
+    width: 30%;
+}
+.container{
+    background-color: green;
+    height: 75%;
+    padding: 20px;
+
+}

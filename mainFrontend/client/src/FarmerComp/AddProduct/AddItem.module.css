@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    margin: auto;
+}
+.field{
+    margin: 0.6rem;
+}
+.field label{
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+    display: block;
+}
+.error{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.field input{
+    font: inherit;
+    padding: 0.3rem;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 8px;
+}
+.btnfield{
+    text-align: left;
+}
+.button{
+    font: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    margin: 5px;
+    background-color: rgb(120, 183, 228);
+    color: black;
+    border: none;
+}
+.button:hover{
+    background-color: rgb(33, 82, 172);
+    color: white;
+}
+.a{
+    color: white;
+    text-decoration: none;
+}
+.main{
+    width: 50%;
+    margin: auto;
+    margin-top: 12vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

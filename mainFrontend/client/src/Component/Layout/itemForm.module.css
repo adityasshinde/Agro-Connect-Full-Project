@@ -1,0 +1,62 @@
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.amt{
+  display: flex;
+  flex-direction: row;
+justify-content: space-between;
+}
+.label{
+    width: 40%;
+    margin: auto 0px;
+    margin-right: 2px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.btn{
+    width: 100%;
+    margin: auto;
+    color: white;
+    background-color: rgb(143, 143, 210);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  border-radius: 45px;
+
+}
+.btn span{
+    margin-left: 3px;
+}
+.btn:hover{
+    background-color: black;
+}
+.error{
+    color: red;
+    font-weight: bold;
+}
+.add{
+   margin: 0px 5px;
+   margin-bottom: 5px;
+   
+}
+
+.addB{
+   padding:6px 9px;
+   font-weight: bold;
+   color: brown;
+   background-color: white;
+   border-radius: 7px;
+   border: 1px solid brown;
+}
+.addB:hover{
+    background-color: brown;
+    color: white;
+}
+.carticon{
+    height: 30px;
+    width: 30px;
+}
