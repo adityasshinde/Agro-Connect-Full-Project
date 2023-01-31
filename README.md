@@ -27,7 +27,7 @@ This will allow farmers to list their products with their prices. Customers have
 ### 1. Clone/Download the Repository
 
 ### 2. Install Dependencies:
-`$ npm install`  (inside '/Frontend' and inside '/Frontend/client')
+`$ npm install`  (inside '/mainFrontend' and inside '/mainFrontend/client')
 
 `$ npm install dotenv`
 
@@ -46,10 +46,10 @@ This will allow farmers to list their products with their prices. Customers have
 `$ truffle migrate --network localhost`
 
 ### 7. Start frontend
-`$ npm run start` (inside '/Frontend/client')
+`$ npm run start` (inside '/mainFrontend/client')
 
 ### 8. Start backend
-`$ python manage.py runserver` (inside '/Backend')
+`$ python manage.py runserver` (inside '/mainBackend')
 
 ## Farmer’s Corner
 
