@@ -3,57 +3,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
 .navbar{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    width: 100vw;
-    height: 10vh;
+    /* width: 100vw;
+    height: 10vh; */
     position: fixed;
-    left: 0px;
-    top: 0px;
-   background-color: #365c32;
+   background-color: inherit;
     color: white;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); */
     z-index: 10;
-    
+    font-size: 1.5rem;
 }
 .navitem{
     margin: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .navitem button{
     font-family: 'Changa', sans-serif;
     background-color: inherit;
-    color: rgb(245, 154, 9);
+    color: black;
     margin: 5px;
     border: 0px;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 .navbar button:hover{
     text-decoration: underline;
-    color: rgb(244, 218, 168);
 }
 .navitem img{
     height: 10vh;
 }
 .navitem h2 a{
     text-decoration: none;
-    color: rgb(245, 154, 9);
+    color:black;
     font-family: 'Rubik Vinyl', cursive;
 }
 .navitem a{
     text-decoration: none;
-    color: rgb(224, 163, 49);
+    color: black;
     font-family: 'Changa', sans-serif;
     margin: 10px;
     font-weight: bold;
 }
-.navbar a:hover,
+.navbar a:hover{
+    text-decoration: underline;
+}
 .navitem a.active{
     text-decoration: underline;
-    color: rgb(244, 218, 168);
+    color: white;
+    background-color: green;
+    padding: 5px 20px;
+    border-radius: 14px;
+    font-size: 1.3rem;
 }
+
 

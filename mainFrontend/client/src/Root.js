@@ -1,4 +1,4 @@
-import Nav from "./Component/Navbar/nav";
+import NavbarWrap from "./Component/Navbar/NavbarWrap";
 import { Outlet } from "react-router-dom";
 import AgroCoin from './build/contracts/AgroCoin.json';
 // import CoinSale from './build/contracts/CoinSale.json';
@@ -217,7 +217,7 @@ const Root=()=>{
 
 
       return <>
-       <Nav connectWallet={ConnectWallet}></Nav>
+       <NavbarWrap connectWallet={ConnectWallet}></NavbarWrap>
         <main><Outlet /></main>
         <Footer/>
       </>;

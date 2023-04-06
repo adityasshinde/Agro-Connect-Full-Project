@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+.Offcanvas{
+    background-color: #ffffffb8;
+}
+
+
+.menuButton{
+    cursor: pointer;
+    border: none;
+    font-size: 1.8rem;
+    font-family: 'ABeeZee', sans-serif;
+    text-decoration: none;
+    background-color: inherit;
+    position: absolute;
+    top: 2vh;
+    left: 4vh;
+}
+.hm{
+    text-decoration: none;
+    color: green;
+    font-size: 1.6rem;
+}
+.menu{
+    background-color: inherit;
+}
+.img{
+    position: absolute;
+    top: 1vh;
+    right: 2vh;
+    cursor: pointer;
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+}
+.logo{
+    width: 70px;
+}

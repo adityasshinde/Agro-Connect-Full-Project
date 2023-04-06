@@ -9,7 +9,8 @@ const chainSlice=createSlice({
         },
         setCurrentAccount(state,action){
            state.currentAccount=action.payload;
-        }
+        },
+     
     },
 });
 

@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const uiSlice=createSlice({
     name:'ui',
-    initialState:{showCart:false,Notification:null,prevOrders:[],CurrentlyListed:[],farmerBalance:null,userEmail:null},
+    initialState:{showCart:false,Notification:null,prevOrders:[],CurrentlyListed:[],farmerBalance:null,userEmail:null,navState:false},
     reducers:{
        Cart(state){
         state.showCart=true;
@@ -28,6 +28,9 @@ const uiSlice=createSlice({
                 title:action.payload.title,
                 message:action.payload.message
             }
+        },
+        setNavState(state,action){
+          state.navState=action.payload;
         }
     }
 });
