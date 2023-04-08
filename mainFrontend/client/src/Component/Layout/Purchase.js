@@ -16,9 +16,9 @@ const Purchase=()=>{
       console.log(amount);
       const provider = new ethers.providers.Web3Provider(window.ethereum);
       const signer = provider.getSigner();
-     // const AgroCoinInstance = new ethers.Contract("0x4f93735C00431326bD330fCC01ffd1b92DBa3574",AgroCoin.abi,signer);
-      const CoinSaleInstance = new ethers.Contract("0x2618dD0bffe017B8Fb8611AefdD64fa30CefadcD",CoinSale.abi,signer);
-     // const WalletInstance = new ethers.Contract("0x590442Ee4C1f206f58E8E2f378B174b5E18BFCF4",Wallet.abi,signer);
+     // const AgroCoinInstance = new ethers.Contract("0xA6AF28f444De37123ac37a0ba3a45DE873435745",AgroCoin.abi,signer);
+      const CoinSaleInstance = new ethers.Contract("0xdD7BEf5F6Ee3644e4EbF86D3365b25704a3a9465",CoinSale.abi,signer);
+     // const WalletInstance = new ethers.Contract("0xD9FF348662D3EDB415F61a31ca35c4E447FBE1c8",Wallet.abi,signer);
       let transaction =  await CoinSaleInstance.buyTokens(currentAccount,{from:currentAccount,value:amount});
       setLoad(true);
       await transaction.wait();
