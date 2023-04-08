@@ -12,7 +12,7 @@
     flex-direction: column;
    align-items: center;
    justify-content: center;
-    background: url('../../images/newbg1.jpg');
+    background: url('../../images/newbg2.JPG');
     background-size: cover;
     background-position: center;
     /* background-blend-mode: darken; */
@@ -59,13 +59,13 @@
     border: none;
     font-size: 1.3rem;
     position: absolute;
-    top: 42vh;
+    top: 52vh;
     left: 20vw;
 }
 .login{
     font-size: 1.2rem;
     font-weight: bold;
     position: absolute;
-    top: 43vh;
-    left: 29vw;
+    top: 53vh;
+    left: 31vw;
 }

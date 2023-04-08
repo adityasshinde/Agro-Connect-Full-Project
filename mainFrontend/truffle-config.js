@@ -79,11 +79,11 @@ module.exports = {
       port: 7545,
       network_id: 5777
     },
-    goerli_infura:{
+    sepolia_infura:{
       provider: function() {
-        return new HDWalletProvider(process.env.MNEMONIC, "https://goerli.infura.io/v3/01b23bac2d334e79888c7ff2a3f84acc", MetaMaskAccountIndex )
+        return new HDWalletProvider(process.env.MNEMONIC, "https://sepolia.infura.io/v3/01b23bac2d334e79888c7ff2a3f84acc", MetaMaskAccountIndex )
     },
-    network_id: 5
+    network_id: 11155111
     },
     //
     // An additional network, but with some advanced options…

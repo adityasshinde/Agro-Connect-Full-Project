@@ -27,7 +27,7 @@ const purchaseHandler=(event)=>{
             <h2><NavLink to='/'>AGRO-connect</NavLink></h2>
         </div> */}
         <div className={classes.navitem}>
-        <NavLink to='/'  className={({isActive})=>isActive ? classes.active : undefined}>Home</NavLink>
+        <NavLink to='/'  className={({isActive})=>isActive ? classes.active : undefined} onClick={hideNavHandler}>Home</NavLink>
         <NavLink to={token ? 'farmer':'auth'} className={({isActive})=>isActive ? classes.active : undefined} onClick={hideNavHandler}>Sell Your Product</NavLink>
         </div>
         <div className={classes.navitem}>

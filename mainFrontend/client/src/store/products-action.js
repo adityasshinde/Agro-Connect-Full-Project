@@ -1,6 +1,9 @@
 
 import { productsActions } from "./product-slice";
 import { uiActions } from "./ui-slice";
+// import { uploadJSONToIPFS } from "../pinata";
+import { uploadJSONToPinata } from "../ipfs";
+import { getJSONFromPinata } from "../ipfs";
 
 export const fetchAvailableProducts=()=>{
     return async(dispatch)=>{
@@ -143,7 +146,15 @@ export const editData=(idArray)=>{
               }
           };
           sendRequest(productData);
-
-
     };
 };
+
+export const saveOrderToIPFS=(item)=>{
+    return async(dispatch)=>{
+        const hash = await uploadJSONToPinata(item);
+        console.log(`JSON data uploaded to Pinata with hash: ${hash}`);
+
+        const retrievedData = await getJSONFromPinata(hash);
+        console.log(`JSON data retrieved from Pinata:`, retrievedData);
+    }
+}
